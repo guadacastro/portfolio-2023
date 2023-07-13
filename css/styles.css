@@ -132,6 +132,7 @@
 .profile-picture {
     width: 50vh;
     border-radius: 40px;
+    align-self: center;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
 }
@@ -315,7 +316,7 @@
 
     .card-img {
         width: 25vh;
-        height: 20vh;
+        height: auto;
     }
 }
 
@@ -372,6 +373,11 @@
       
 }
 
-@media screen and (min-width: 993px) and (max-width: 1199px) {
-
+@media screen and (min-width: 993px) and (max-width: 1348px) {
+  
 }
+
+
+
+
+
