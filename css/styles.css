@@ -318,6 +318,10 @@
         width: 25vh;
         height: auto;
     }
+
+    .profile-picture {
+        align-self: center;
+    }
 }
 
 @media screen and (min-width: 1258px) {
