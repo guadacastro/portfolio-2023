@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
 }
 
 @font-face {
@@ -54,11 +54,11 @@
     font-weight: light;
     font-style: normal;
 }
+
+
+
 .body {
     background-color: #F8F2FC;
-}
-.box {
-    background-color: aqua;
 }
 
 .logo {
@@ -69,16 +69,17 @@
     background-color: red;
 }
 
+
+
 .violet-bubble {
     background-color: #B97FE6;
-    border-radius: 40px;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
 }
 
-.nav-text {
+/* .nav-text {
     text-align: center;
-}
+} */
 
 .nav-text li a {
     font-family: 'Rebond Grotesque';
@@ -88,7 +89,6 @@
 .download-button {
     background-color: #391952;
     color: white;
-    border-radius: 40px;
 }
 
 .box1{
@@ -293,10 +293,20 @@
     font-family: 'Roobert';
     font-size: 2rem;
     font-weight: bold;
-    background-color: #c5c5c5;
+    /* background-color: #c5c5c5;  391952 orange: f57f3f */
+    background-color: #B97FE6;
+    color: #391952;
     border-radius: 40px;
     margin: 1vh 5vh;
+    box-shadow: 6px 6px 12px #d7d4d4,
+    -6px -6px 12px #ffffff;
+    line-height: 5vh;
 }
+
+
+
+
+
 
 .bullet-points-box {
     align-self: center;
@@ -308,6 +318,9 @@
     text-align: justify;
 }
 
+.skills-icon {
+    width: 30px;
+}
 
 
 
@@ -359,7 +372,7 @@
     .download-button {
         background: rgb(254, 252, 255);
         font-family: 'Rebond Grotesque';
-        width: auto;
+        /* width: auto; */
         font-size: 1.3rem;
         border-radius: 40px;
         border: 3px solid #391952;
