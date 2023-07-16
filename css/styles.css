@@ -75,6 +75,8 @@
     background-color: #B97FE6;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
+    border-radius: 40px;
+    text-align: center;
 }
 
 /* .nav-text {
@@ -139,6 +141,13 @@
 
 .violet-bubble {
     margin-top: 4vh;
+}
+
+.intro-text {
+    font-family: 'Roobert';
+    font-size: 1.5rem;
+    text-align:justify;
+    /* margin: 10vh 2vh; */
 }
 
 .navbar-toggler {
@@ -304,10 +313,6 @@
 }
 
 
-
-
-
-
 .bullet-points-box {
     align-self: center;
 }
@@ -322,7 +327,13 @@
     width: 30px;
 }
 
-
+.map {
+    width: auto;
+    border-radius: 40px;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+    
+}
 
 
 @media screen and (min-width: 800px) and (max-width: 991px) {
@@ -399,7 +410,8 @@
     }
 
     .box1 {
-        margin: 30vh 0;
+        margin: 25vh 0;
+        text-align: center;
     }
 
     .box2 {
