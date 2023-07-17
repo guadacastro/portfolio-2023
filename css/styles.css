@@ -126,6 +126,7 @@
     border-radius: 30px;
     text-align: center;
     margin-top: 5vh; 
+    padding: 1vh 0;
     box-shadow: 6px 6px 12px #c5c5c5,
                -6px -6px 12px #ffffff;
 
@@ -341,6 +342,8 @@
 
     .violet-bubble{
         margin-top: 4vh;
+        
+        
     }
 }
 
@@ -376,6 +379,7 @@
 @media screen and (min-width: 1258px) {
     .violet-bubble {
         margin-top: 0;
+        
     }
 
 }
@@ -391,6 +395,7 @@
         border: 3px solid #391952;
         box-shadow: 0.1em 0.1em;
         color: black;
+        width: auto;
       }
       
     .download-button:hover {
