@@ -91,6 +91,7 @@
 .download-button {
     background-color: #391952;
     color: white;
+    
 }
 
 .box1{
@@ -347,6 +348,7 @@
     .violet-bubble {
         margin-top: 0;
         width: auto;
+        border-radius: 40px;
     }
     .title1 {
         text-align: center;
