@@ -162,22 +162,22 @@
     transition: all .3s;
     box-shadow: 6px 6px 12px #c5c5c5,
                -6px -6px 12px #ffffff;
-  }
+}
   
-  .navbar-toggler:hover {
+.navbar-toggler:hover {
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-	      -0.5px -0.5px 0px rgba(255,255,255,1),
-	      0.5px 0.5px 0px rgba(0,0,0,0.15),
-	      0px 12px 10px -10px rgba(0,0,0,0.05);
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
     border: 1px solid rgba(0,0,0,0.1);
     /* transform: translateY(0.5em); */
-  }
+}
   
-  .navbar-toggler:active {
+.navbar-toggler:active {
     box-shadow: 4px 4px 12px #c5c5c5,
-               -4px -4px 12px #ffffff;
-  }
+                -4px -4px 12px #ffffff;
+}
 
 .navbar-toggler:focus {
     box-shadow: none;
@@ -427,7 +427,7 @@
         box-shadow: 0.05em 0.05em;
     }
 
-     .box3 {
+    .box3 {
         position: fixed;
         left: 0;
         top: 0;
