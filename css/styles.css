@@ -337,8 +337,21 @@
     -6px -6px 12px #ffffff;
 }
 
+.form-label {
+    font-family: 'Rebond Grotesque', Rebond Grotesque;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 .forms-box {
     margin: 0 0 40vh 0;
+}
+
+.input-box {
+    
+    border: 3px solid blueviolet;
+    opacity: .5;
+    border-radius: 30px;
 }
 
 @media screen and (min-width: 800px) and (max-width: 991px) {
@@ -433,10 +446,6 @@
 
 
       
-}
-
-@media screen and (min-width: 993px) and (max-width: 1348px) {
-  
 }
 
 
