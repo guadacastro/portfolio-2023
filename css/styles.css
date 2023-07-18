@@ -91,6 +91,7 @@
 .download-button {
     background-color: #391952;
     color: white;
+    text-decoration: none;
     
 }
 
@@ -412,6 +413,7 @@
         box-shadow: 0.1em 0.1em;
         color: black;
         width: auto;
+        text-decoration: none;
       }
       
     .download-button:hover {
