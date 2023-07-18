@@ -149,7 +149,7 @@
     font-family: 'Roobert';
     font-size: 1.5rem;
     text-align:justify;
-    /* margin: 10vh 2vh; */
+    margin: 10vh 2vh;
 }
 
 .navbar-toggler {
@@ -329,14 +329,17 @@
     width: 30px;
 }
 
-.map {
-    width: auto;
-    border-radius: 40px;
+.profile-picture-about-me {
+    width: 50vh;
+    border-radius: 30px;
+    align-self: center;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
-    
 }
 
+.forms-box {
+    margin: 0 0 40vh 0;
+}
 
 @media screen and (min-width: 800px) and (max-width: 991px) {
 
