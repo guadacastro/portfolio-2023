@@ -331,11 +331,12 @@
 }
 
 .profile-picture-about-me {
-    width: 35vh;
+    width: 30vh;
     border-radius: 30px;
     align-self: center;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
+
 }
 
 .form-label {
@@ -435,7 +436,7 @@
     }
 
     .box1 {
-        margin: 25vh 0;
+        margin-top: 25vh;
         text-align: center;
     }
 
@@ -445,8 +446,9 @@
         gap: 10vh;
     }
 
-
-
+    .profile-picture-about-me {
+        width: 40vh;
+    }
       
 }
 
