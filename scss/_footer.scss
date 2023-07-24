@@ -1,0 +1,11 @@
+.violet-bubble-footer {
+    background-color: $light-violet;
+    border-radius:  map-get($border-radius, rounder);
+    text-align: center;
+    margin: 2vh 0;
+    box-shadow:$shadow;
+
+    .icon-box {
+        font-size: 2rem;
+    }
+}

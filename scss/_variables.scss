@@ -1,0 +1,39 @@
+// Variables
+$font-title: 'Rebond Grotesque', Rebond Grotesque;
+$font-text: 'Roobert';
+$shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+$background-color-page: #F8F2FC;
+$border-radius: 40px;
+$font-size-title: 4rem;
+$font-size-subtitle: 2rem;
+$font-size-text: 1.5rem;
+$font-size-little-text: 1.3rem;
+$dark-violet: #391952;
+$light-violet: #B97FE6;
+
+
+$fonts: (
+       title: $font-title,
+       subtitle: $font-text,
+);
+
+$fonts-size : (
+        title: $font-size-title,
+        subtitle: $font-size-subtitle,
+        text: $font-size-text,
+        little-text: $font-size-little-text,
+);
+
+$colors: (
+        dark-v: $dark-violet,
+        light-v: $light-violet,
+        white: white,
+        black: black,
+        background: $background-color-page,
+);
+
+$border-radius: (
+        rounder:40px,
+        round: 30px,
+)

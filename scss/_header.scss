@@ -1,0 +1,115 @@
+.violet-bubble {
+    background-color: $light-violet;
+    box-shadow: $shadow;
+    border-radius: map-get($border-radius, rounder);
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.box3{
+    .logo {
+        width: 7vh;
+    }
+    .navbar-toggler {
+        color: #090909;
+        font-size: 18px;
+        border-radius: 0.5em;
+        background: #ffffff;
+        border: 1px solid #e8e8e8;
+        transition: all .3s;
+        box-shadow: $shadow;
+
+        &:hover {
+            box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                    -0.5px -0.5px 0px rgba(255,255,255,1),
+                    0.5px 0.5px 0px rgba(0,0,0,0.15),
+                    0px 12px 10px -10px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.1);
+            /* transform: translateY(0.5em); */
+            
+        }
+
+        &:active {
+            box-shadow: 4px 4px 12px #c5c5c5,
+                        -4px -4px 12px #ffffff;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    
+
+    .nav-text {
+        
+            a {
+                font-family: $font-title;
+                font-size: 1.3rem;
+            }
+        
+    }
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width: 991px) {
+
+    .violet-bubble{
+        margin-top: 4vh;
+        
+        
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1257px) {
+    .violet-bubble {
+        margin-top: 0;
+        width: auto;
+        border-radius:  map-get($border-radius, rounder);
+    }
+}
+
+
+@media screen and (min-width: 1258px) {
+    .violet-bubble {
+        margin-top: 0;
+        
+    }
+
+}
+
+/* Solo para el boton de download */
+@media screen and (min-width: 992px) {
+    .download-button {
+        background: rgb(254, 252, 255);
+        font-family: $font-title;
+        /* width: auto; */
+        font-size: 1.3rem;
+        border-radius:  map-get($border-radius, rounder);
+        border: 3px solid $dark-violet;
+        box-shadow: 0.1em 0.1em;
+        color: black;
+        width: auto;
+        text-decoration: none;
+      }
+      
+    .download-button:hover {
+        transform: translate(-0.05em, -0.05em);
+        box-shadow: 0.15em 0.15em;
+        color: rgb(0, 0, 0);
+    }
+    
+    .download-button:active {
+        transform: translate(0.05em, 0.05em);
+        box-shadow: 0.05em 0.05em;
+    }
+
+    .box3 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;   
+    }
+      
+}

@@ -1,0 +1,20 @@
+
+
+.profile-picture {
+    width: 50vh;
+    border-radius:  map-get($border-radius, rounder);
+    align-self: center;
+    box-shadow: $shadow
+}
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1257px) {
+
+    .profile-picture {
+        align-self: center;
+    }
+}
+

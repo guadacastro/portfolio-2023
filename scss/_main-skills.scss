@@ -1,0 +1,33 @@
+
+.skills-title {
+    font-family: $font-title;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skills-subtitle {
+    font-family: $font-text;
+    font-size: $font-size-subtitle;
+    font-weight: bold;
+    background-color: $light-violet;
+    color: $dark-violet;
+    border-radius:  map-get($border-radius, rounder);
+    margin: 1vh 5vh;
+    box-shadow: $shadow;
+    line-height: 5vh;
+}
+
+.bullet-points-box {
+        align-self: center;
+
+        .bullet-points-text {
+                font-family: 'Roobert';
+                font-size: 1.5rem;
+                text-align: justify;
+        }
+}
+
+
+.skills-icon {
+    width: 30px;
+}
