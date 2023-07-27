@@ -301,6 +301,8 @@
   border-radius: 30px;
   /* background-color: #e8e8e8; */
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  font-family: "Roobert";
+  font-size: 1.3rem;
 }
 
 .preview-button, .github-button, .demo-button {
