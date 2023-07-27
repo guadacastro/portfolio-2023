@@ -33,8 +33,16 @@
     padding: .5vh 1vh;
 }
 
-.header-box-white{
-    @include header-color(map-get($colors, white));
+
+.intro-box {
+    background-color: map-get($colors, background);
+    border-radius: map-get($border-radius, rounder );
+    box-shadow: $shadow;
+
+    p {
+        color: map-get($colors, dark-v);
+    }
+
 }
 
 .box1 {
@@ -130,6 +138,14 @@
         gap: 10vh;
     }
 
+    .header-box {
+        @include header-color($background-color-page);
+        
+    }
+    
+    .header-box-white{
+        @include header-color(map-get($colors, white));
+    }
 
 
 

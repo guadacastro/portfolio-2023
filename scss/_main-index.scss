@@ -7,16 +7,7 @@
     box-shadow: $shadow
 }
 
-.intro-box {
-    background-color: map-get($colors, background);
-    border-radius: map-get($border-radius, rounder );
-    box-shadow: $shadow;
 
-    p {
-        color: map-get($colors, dark-v);
-    }
-
-}
 
 
 

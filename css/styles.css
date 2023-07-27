@@ -84,9 +84,13 @@
   padding: 0.5vh 1vh;
 }
 
-.header-box-white {
-  background-color: white;
-  box-shadow: 0px 3px 13px -5px rgba(85, 82, 82, 0.1);
+.intro-box {
+  background-color: #F8F2FC;
+  border-radius: 40px;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.intro-box p {
+  color: #391952;
 }
 
 .box1 {
@@ -164,6 +168,14 @@
     flex-direction: column;
     gap: 10vh;
   }
+  .header-box {
+    background-color: #F8F2FC;
+    box-shadow: 0px 3px 13px -5px rgba(85, 82, 82, 0.1);
+  }
+  .header-box-white {
+    background-color: white;
+    box-shadow: 0px 3px 13px -5px rgba(85, 82, 82, 0.1);
+  }
 }
 .violet-bubble {
   background-color: #B97FE6;
@@ -171,11 +183,6 @@
   border-radius: 40px;
   text-align: center;
   margin-top: 4vh;
-}
-
-.header-box {
-  background-color: #F8F2FC;
-  box-shadow: 0px 3px 13px -5px rgba(85, 82, 82, 0.1);
 }
 
 .box3 .logo {
@@ -258,15 +265,6 @@
   border-radius: 40px;
   align-self: center;
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-}
-
-.intro-box {
-  background-color: #F8F2FC;
-  border-radius: 40px;
-  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-}
-.intro-box p {
-  color: #391952;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1257px) {
