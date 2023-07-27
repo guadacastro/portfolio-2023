@@ -1,9 +1,15 @@
+
 .violet-bubble {
     background-color: $light-violet;
     box-shadow: $shadow;
     border-radius: map-get($border-radius, rounder);
     text-align: center;
     margin-top: 4vh;
+}
+
+.header-box {
+    @include header-color($background-color-page);
+    
 }
 
 .box3{

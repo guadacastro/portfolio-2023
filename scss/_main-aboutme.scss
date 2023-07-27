@@ -1,9 +1,10 @@
 
 .profile-picture-about-me {
-    width: 30vh;
+    width: 45vh;
     border-radius: 30px;
     align-self: center;
     box-shadow: $shadow;
+
 
 }
 
@@ -22,4 +23,10 @@
     border: 3px solid blueviolet;
     opacity: .5;
     border-radius: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+    .profile-picture-about-me {
+        width: 60vh;
+    }
 }

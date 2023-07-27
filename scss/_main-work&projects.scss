@@ -35,7 +35,8 @@
     color: white;
     padding: 1vh auto;
     font-size: 1.2rem;
-
+    font-family: map-get($fonts, subtitle);
+    font-weight: bold;
     
 
     &:hover {
@@ -46,8 +47,6 @@
 
 .demo-button {
     @extend .preview-button;
-    font-style: map-get($fonts, subtitle  );
-    font-size: 1.3rem;
 
     i {
         font-size: 1.1rem;

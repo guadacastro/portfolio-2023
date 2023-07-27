@@ -41,4 +41,11 @@ $colors: (
 $border-radius: (
         rounder:40px,
         round: 30px,
+        little-round: 20px,
+);
+
+$shadows: (
+        strong: $shadow,
+        light:  0px 3px 13px -5px rgba(85,82,82,0.1),
+
 )
