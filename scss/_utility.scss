@@ -42,8 +42,8 @@
 .intro-text {
     font-family: $font-text;
     font-size: $font-size-text;
-    text-align:justify;
-    margin: 10vh 2vh;
+    text-align: map-get($fonts-style, text-align );
+    margin: 10vh 0vh;
 }
 
 .card-box {

@@ -14,7 +14,8 @@
 }
 
 .card-description {
-    text-align: justify;
+    text-align: map-get($fonts-style, text-align );
+    font-size: map-get($fonts-size, little-text);
     margin: 0 3vh;
     color: $dark-violet;
 }
@@ -35,8 +36,23 @@
     padding: 1vh auto;
     font-size: 1.2rem;
 
+    
+
     &:hover {
         background-color: white;
+        color: $dark-violet;
+    }
+}
+
+.demo-button {
+    @extend .preview-button;
+    font-style: map-get($fonts, subtitle  );
+    font-size: 1.3rem;
+
+    i {
+        font-size: 1.1rem;
+    }
+    &:hover {
         color: $dark-violet;
     }
 }
