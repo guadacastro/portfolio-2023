@@ -9,6 +9,30 @@
     font-weight: bold;
 }
 
+.violet {
+    background-color:  rgb(211, 163, 248);
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.light-blue {
+    background-color: lightblue;
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.orange{
+    background-color: rgb(252, 145, 78);
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.pink{
+    background-color: rgb(255, 136, 203);
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
 .header-box-white{
     @include header-color(map-get($colors, white));
 }
