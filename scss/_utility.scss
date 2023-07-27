@@ -5,6 +5,9 @@
     background-color: red;
 }
 
+.bold {
+    font-weight: bold;
+}
 
 .header-box-white{
     @include header-color(map-get($colors, white));
@@ -39,16 +42,19 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 5vh ;
+    
 
 
 }
+
+
 
 .intro-text {
     font-family: $font-text;
     font-size: $font-size-text;
     text-align: map-get($fonts-style, text-align );
     margin: 10vh 0vh;
+    
 }
 
 .card-box {
@@ -99,6 +105,8 @@
         flex-direction: column;
         gap: 10vh;
     }
+
+
 
 
 

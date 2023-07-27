@@ -8,25 +8,31 @@
 
 }
 
-.form-label {
-    font-family: $font-title;
-    font-weight: bold;
-    font-size: 1rem;
-}
+// .form-label {
+//     font-family: $font-title;
+//     font-weight: bold;
+//     font-size: 1rem;
+// }
 
-.forms-box {
-    margin: 0 0 40vh 0;
-}
+// .forms-box {
+//     margin: 0 0 40vh 0;
+// }
 
-.input-box {
+// .input-box {
     
-    border: 3px solid blueviolet;
-    opacity: .5;
-    border-radius: 30px;
-}
+//     border: 3px solid blueviolet;
+//     opacity: .5;
+//     border-radius: 30px;
+// }
 
 @media screen and (min-width: 1200px) {
     .profile-picture-about-me {
         width: 60vh;
+    }
+}
+
+@media screen and (min-width: 2559px) {
+    .profile-picture-about-me {
+        width: 45vh;
     }
 }
