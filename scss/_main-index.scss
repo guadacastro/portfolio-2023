@@ -1,7 +1,7 @@
 
 
 .profile-picture {
-    width: 50vh;
+    width: 100vw;
     border-radius:  map-get($border-radius, rounder);
     align-self: center;
     box-shadow: $shadow
@@ -15,8 +15,13 @@
 
     .profile-picture {
         align-self: center;
-
-
+        
     }
 }
 
+
+@media screen and (min-width: 767px ) and (max-width: 1199px) {
+    .profile-picture {
+        width: 60vw ;
+    }
+}

@@ -1,6 +1,6 @@
 
 .profile-picture-about-me {
-    width: 45vh;
+    width: 50vh;
     border-radius: 30px;
     align-self: center;
     box-shadow: $shadow;
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 1200px) {
     .profile-picture-about-me {
-        width: 60vh;
+        width: 70vh;
     }
 }
 
