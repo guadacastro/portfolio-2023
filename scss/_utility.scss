@@ -1,7 +1,11 @@
 .body {
     background-color: map-get($colors, background );
-    overflow: hidden;
+
 }
+.overflow-hidden {
+    overflow-x: hidden;
+}
+
 .red {
     background-color: red;
 }
