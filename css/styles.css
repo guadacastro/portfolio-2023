@@ -386,20 +386,50 @@
 }
 
 .profile-picture-about-me {
-  width: 50vh;
+  width: 80vw;
+  max-width: 80vw;
   border-radius: 30px;
   align-self: center;
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
   .profile-picture-about-me {
-    width: 70vh;
+    width: 60vw;
+    min-width: 60vw;
   }
 }
-@media screen and (min-width: 2559px) {
+@media screen and (min-width: 1200px) {
   .profile-picture-about-me {
-    width: 45vh;
+    width: 30vw;
+    min-width: 30vw;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+  .profile-picture-about-me {
+    width: 40vw;
+    min-width: 30vw;
+    max-width: 40vw;
+  }
+}
+@media screen and (min-width: 1881pxpx) and (max-width: 2300) {
+  .profile-picture-about-me {
+    width: 30vw;
+    min-width: 30vw;
+  }
+}
+@media screen and (min-width: 2404px) and (max-width: 4499px) {
+  .profile-picture-about-me {
+    width: 15vw;
+    min-width: 15vw;
+    max-width: 15vw;
+  }
+}
+@media screen and (min-width: 3594px) {
+  .profile-picture-about-me {
+    width: 15vw;
+    min-width: 10vw;
+    max-width: 15vw;
   }
 }
 .form-label {
