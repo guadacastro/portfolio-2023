@@ -50,6 +50,7 @@
 
 .body {
   background-color: #F8F2FC;
+  overflow: hidden;
 }
 
 .red {
