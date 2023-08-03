@@ -84,6 +84,11 @@
   padding: 0.5vh 1vh;
 }
 
+.animations-container {
+  overflow: hidden;
+  padding: 1vh;
+}
+
 .intro-box {
   background-color: #F8F2FC;
   border-radius: 40px;

@@ -36,6 +36,10 @@
     padding: .5vh 1vh;
 }
 
+.animations-container {
+    overflow: hidden;
+    padding: 1vh;
+}
 
 .intro-box {
     background-color: map-get($colors, background);
