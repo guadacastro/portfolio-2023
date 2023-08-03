@@ -52,10 +52,6 @@
   background-color: #F8F2FC;
 }
 
-.overflow-hidden-1 {
-  overflow-x: hidden;
-}
-
 .red {
   background-color: red;
 }
@@ -365,7 +361,7 @@
 
 .skills-subtitle {
   font-family: "Roobert";
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   background-color: #B97FE6;
   color: #391952;
