@@ -1,6 +1,6 @@
 
 .profile-picture-about-me {
-    width: 80vw;
+    width: 100vw;
     max-width: 80vw;
     border-radius: 30px;
     align-self: center;
@@ -28,7 +28,7 @@
 // }
 @media screen and (min-width: 600px) and (max-width:1199px) {
     .profile-picture-about-me {
-        width: 60vw;
+        width: 40vw;
         min-width: 60vw;
     }
 }
@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1800px){
     .profile-picture-about-me {
-        width: 40vw;
+        width: 46vw;
         min-width: 30vw;
         max-width: 40vw;
     }
@@ -57,9 +57,9 @@
 
 @media screen and (min-width: 2404px) and (max-width: 4499px){
     .profile-picture-about-me {
-        width: 15vw;
-        min-width: 15vw;
-        max-width: 15vw;
+        width: 25vw;
+        min-width: 25vw;
+        max-width: 25vw;
     }
 }
 
