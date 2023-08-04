@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
 }
 
 @font-face {
@@ -54,11 +54,11 @@
     font-weight: light;
     font-style: normal;
 }
+
+
+
 .body {
     background-color: #F8F2FC;
-}
-.box {
-    background-color: aqua;
 }
 
 .logo {
@@ -69,16 +69,19 @@
     background-color: red;
 }
 
+
+
 .violet-bubble {
     background-color: #B97FE6;
-    border-radius: 40px;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
-}
-
-.nav-text {
+    border-radius: 40px;
     text-align: center;
 }
+
+/* .nav-text {
+    text-align: center;
+} */
 
 .nav-text li a {
     font-family: 'Rebond Grotesque';
@@ -88,7 +91,8 @@
 .download-button {
     background-color: #391952;
     color: white;
-    border-radius: 40px;
+    text-decoration: none;
+    
 }
 
 .box1{
@@ -123,6 +127,7 @@
     border-radius: 30px;
     text-align: center;
     margin-top: 5vh; 
+    padding: 1vh 0;
     box-shadow: 6px 6px 12px #c5c5c5,
                -6px -6px 12px #ffffff;
 
@@ -132,12 +137,20 @@
 .profile-picture {
     width: 50vh;
     border-radius: 40px;
+    align-self: center;
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
 }
 
 .violet-bubble {
     margin-top: 4vh;
+}
+
+.intro-text {
+    font-family: 'Roobert';
+    font-size: 1.5rem;
+    text-align:justify;
+    margin: 10vh 2vh;
 }
 
 .navbar-toggler {
@@ -149,22 +162,22 @@
     transition: all .3s;
     box-shadow: 6px 6px 12px #c5c5c5,
                -6px -6px 12px #ffffff;
-  }
+}
   
-  .navbar-toggler:hover {
+.navbar-toggler:hover {
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-	      -0.5px -0.5px 0px rgba(255,255,255,1),
-	      0.5px 0.5px 0px rgba(0,0,0,0.15),
-	      0px 12px 10px -10px rgba(0,0,0,0.05);
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
     border: 1px solid rgba(0,0,0,0.1);
     /* transform: translateY(0.5em); */
-  }
+}
   
-  .navbar-toggler:active {
+.navbar-toggler:active {
     box-shadow: 4px 4px 12px #c5c5c5,
-               -4px -4px 12px #ffffff;
-  }
+                -4px -4px 12px #ffffff;
+}
 
 .navbar-toggler:focus {
     box-shadow: none;
@@ -282,16 +295,73 @@
     }
 }
 
+.skills-title {
+    font-family: 'Rebond Grotesque', Rebond Grotesque;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skills-subtitle {
+    font-family: 'Roobert';
+    font-size: 2rem;
+    font-weight: bold;
+    /* background-color: #c5c5c5;  391952 orange: f57f3f */
+    background-color: #B97FE6;
+    color: #391952;
+    border-radius: 40px;
+    margin: 1vh 5vh;
+    box-shadow: 6px 6px 12px #d7d4d4,
+    -6px -6px 12px #ffffff;
+    line-height: 5vh;
+}
 
 
+.bullet-points-box {
+    align-self: center;
+}
 
+.bullet-points-text {
+    font-family: 'Roobert';
+    font-size: 1.5rem;
+    text-align: justify;
+}
 
+.skills-icon {
+    width: 30px;
+}
 
+.profile-picture-about-me {
+    width: 30vh;
+    border-radius: 30px;
+    align-self: center;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+
+}
+
+.form-label {
+    font-family: 'Rebond Grotesque', Rebond Grotesque;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.forms-box {
+    margin: 0 0 40vh 0;
+}
+
+.input-box {
+    
+    border: 3px solid blueviolet;
+    opacity: .5;
+    border-radius: 30px;
+}
 
 @media screen and (min-width: 800px) and (max-width: 991px) {
 
     .violet-bubble{
         margin-top: 4vh;
+        
+        
     }
 }
 
@@ -299,6 +369,7 @@
     .violet-bubble {
         margin-top: 0;
         width: auto;
+        border-radius: 40px;
     }
     .title1 {
         text-align: center;
@@ -315,13 +386,18 @@
 
     .card-img {
         width: 25vh;
-        height: 20vh;
+        height: auto;
+    }
+
+    .profile-picture {
+        align-self: center;
     }
 }
 
 @media screen and (min-width: 1258px) {
     .violet-bubble {
         margin-top: 0;
+        
     }
 
 }
@@ -331,12 +407,14 @@
     .download-button {
         background: rgb(254, 252, 255);
         font-family: 'Rebond Grotesque';
-        width: auto;
+        /* width: auto; */
         font-size: 1.3rem;
         border-radius: 40px;
         border: 3px solid #391952;
         box-shadow: 0.1em 0.1em;
         color: black;
+        width: auto;
+        text-decoration: none;
       }
       
     .download-button:hover {
@@ -350,7 +428,7 @@
         box-shadow: 0.05em 0.05em;
     }
 
-     .box3 {
+    .box3 {
         position: fixed;
         left: 0;
         top: 0;
@@ -358,7 +436,8 @@
     }
 
     .box1 {
-        margin: 30vh 0;
+        margin-top: 25vh;
+        text-align: center;
     }
 
     .box2 {
@@ -367,11 +446,13 @@
         gap: 10vh;
     }
 
-
-
+    .profile-picture-about-me {
+        width: 40vh;
+    }
       
 }
 
-@media screen and (min-width: 993px) and (max-width: 1199px) {
 
-}
+
+
+
