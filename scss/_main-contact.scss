@@ -1,0 +1,33 @@
+.form-label {
+    font-family: $font-title;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.forms-box {
+    margin: 0 0 20vh 0;
+}
+
+.input-box {
+    
+    border: 3px solid blueviolet;
+    opacity: .5;
+    border-radius: 30px;
+}
+
+.text-style {
+    font-family: map-get($fonts , subtitle );
+    font-size: map-get($fonts-size, text );
+    
+    
+}
+
+.white-color {
+    background-color: white;
+    color: $dark-violet;
+
+    &:hover {
+        color: white;
+        background-color: $dark-violet;
+    }
+}

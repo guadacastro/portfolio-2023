@@ -1,0 +1,61 @@
+.violet-bubble-footer {
+    background-color: $light-violet;
+    border-radius:  map-get($border-radius, rounder);
+    text-align: center;
+    margin: 2vh 0;
+    box-shadow:$shadow;
+
+    .icon-box {
+        font-size: 2rem;
+    }
+}
+
+
+.button-swing {
+    cursor: pointer;
+    height: 32px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        animation: swing 1s ease;
+        animation-iteration-count: 1;
+       }
+  }
+
+  
+  @keyframes swing {
+    15% {
+      -webkit-transform: translateX(5px);
+      transform: translateX(5px);
+    }
+    30% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    50% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+    }
+    65% {
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+    }
+    80% {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+
+.button-grow {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+      }
+  }
+  

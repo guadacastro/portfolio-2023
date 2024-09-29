@@ -1,0 +1,15 @@
+
+
+
+// @mixin grid-columns-row($columns,$row){
+//     display:grid;
+//     grid-template-columns:repeat($columns, 1fr);
+//     grid-template-rows:repeat($row, 1fr);
+// }
+
+@mixin header-color($header-color) {
+    background-color: $header-color;
+    box-shadow: map-get($shadows, light);
+    
+    
+}

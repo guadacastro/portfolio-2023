@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Works & Projects</title>
+    <meta name="description" content="Explore my diverse portfolio of works and projects, showcasing my passion and creativity in Junior Front-end Developer. From innovative designs to successful collaborations, discover the breadth of my expertise and envision the possibilities we can achieve together.">
+    <meta name="keywords" content="Portfolio, Works, Projects, Junior Front-end Developer, Creative, Innovative Designs, Collaborations, Disney Plus, Tuki-mobile, Uber Eats">
+    <title>Works & Projects | Guadalupe Castro Martinez Portfolio</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/bc7bec86a2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body class="body"  >
 
     <header>
-        <div class="container-fluid box3">
+        <div class="container-fluid header-box box3">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
                     <a class="navbar-brand col-3 " href="../index.html">
@@ -55,10 +58,10 @@
 
     <main>
          <!-- Intro to the Website -->
-        <div class="container">
+        <div class="container ">
             <div class="row box1">
-                <div class="col-xl-10 box2">
-                    <h1 class="title1 ">These are my Projects</h1>
+                <div class="col-xl-10 box2 animations-container">
+                    <h1 class="title1 " data-aos="flip-left">These are my Projects<span style="color:rgb(177, 121, 199);"> .</span></h1>
                     <h2 class="title2">Guadalupe Castro Martinez</h2>
                 </div>
             </div>
@@ -66,10 +69,13 @@
 
          
         <!-- now cards, soon ==> carousel-->
-        <div class="container ">
-            <div class="row card-box gap-4">
-                <div class="col-lg  card1">
-                    <img class="card-img" src="../assets/img/projects-img-videos/disney-plus.jpg" alt="">
+        <div class="container animations-container ">
+            <div class="row card-box gap-4 ">
+                <div class="col-xl  card1 " data-aos="zoom-in-right" data-aos-offset="400">
+                    <img    class="card-img" src="../assets/img/projects-img/600-disney.png" 
+                            srcset="../assets/img/projects-img/disney-plus.jpg 800w, ../assets/img/projects-img/600-disney.png 600w"
+                         
+                            alt="disney-plus home page photo">
                     <h1 class="card-title">Disney Plus</h1>
                     <div class="container">
                         <div class="row gap-2 justify-content-center">
@@ -94,7 +100,7 @@
                     <p class="card-description ">Disney Plus Website - A captivating main page designed with background videos, dynamic carousels, and delightful animations. This project aims to create an immersive user experience, showcasing Disney's extensive content library in a visually engaging and interactive manner.</p>
                     <div class="container">
                         <div class="row gap-4 justify-content-center">
-                            <a class="col-auto preview-button" href="https://fantastic-kringle-83d9e1.netlify.app/" target="_blank" >Preview</a>
+                            <a class="col-auto demo-button" href="https://fantastic-kringle-83d9e1.netlify.app/" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square " ></i> Demo</a>
                             <a class="col-auto github-button" href="https://github.com/guadacastro/DisneyPlus-Clone.git" target="_blank">
                                 <i class="fab fa-github github-icon" ></i>
                                 Github
@@ -102,8 +108,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg card1">
-                    <img class="card-img" src="../assets/img/projects-img-videos/uber-eats-app.png" alt="">
+                <div class="col-xl card1 " data-aos="zoom-in-up" data-aos-offset="500">
+                    <img    class="card-img" src="../assets/img/projects-img/600-uber.png" 
+                    srcset="../assets/img/projects-img/uber-eats-app.png 800w, ../assets/img/projects-img/600/uber.png 600w"
+                            alt="Uber eats photo">
                     <h1 class="card-title">Uber eats</h1>
                     <div class="container">
                         <div class="row gap-2 justify-content-center">
@@ -128,7 +136,7 @@
                     <p class="card-description">Uber Eats App Clone - Emulating Food Delivery Experience: A replica of the original app, showcasing my mobile app development skills in recreating the seamless food ordering and delivery experience.</p>
                     <div class="container">
                         <div class="row gap-4 justify-content-center">
-                            <a class="col-auto preview-button" href="https://github.com/guadacastro/UberEats-clone.git" target="_blank" >Preview</a>
+                            <a class="col-auto demo-button" href="https://github.com/guadacastro/UberEats-clone.git" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square " ></i> Demo</a>
                             <a class="col-auto github-button" href="https://github.com/guadacastro/UberEats-clone.git" target="_blank">
                                 <i class="fab fa-github github-icon" ></i>
                                 Github
@@ -136,8 +144,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg card1">
-                    <img class="card-img" src="../assets/img/projects-img-videos/tuki-mobile.png" alt="">
+                <div class="col-xl card1 " data-aos="zoom-in-left" data-aos-offset="600">
+                    <img    class="card-img" src="../assets/img/projects-img/600-tuki.png"
+                    srcset="../assets/img/projects-img/tuki-mobile.png 800w, ../assets/img/projects-img/600-tuki.png 600w"
+                            alt="Tuki app photo">
                     <h1 class="card-title">Tuki: AI-Powered Language Learning App</h1>
                     <div class="container">
                         <div class="row gap-2 justify-content-center">
@@ -159,12 +169,13 @@
                             </p>
                         </div>
                     </div>
-                    <p class="card-description ">Tuki - Your AI-powered Language Learning App: Tuki is an innovative mobile application that utilizes artificial intelligence to detect highlighted text and perform text recognition. By taking a photo within the app, it automatically identifies words, translates them, and organizes them into a flashcard system for easy language learning. Currently focused on vocabulary learning, Tuki is set to expand its features, allowing users to draw specific images on the photographed sheet, which can be sent to a designated folder within the app or via email for convenient organization.
+                    <p class="card-description ">
+                        Tuki is an AI-powered language learning app that detects highlighted text in photos, translates it, and organizes it into flashcards for easy learning. Additionally, users can draw on photos taken with the app, and these images can be conveniently saved in folders or sent via email for further organization.
                     </p>
     
                     <div class="container">
                         <div class="row gap-4 justify-content-center">
-                            <a class="col-auto preview-button" href="https://github.com/guadacastro/tuki-mobile.git" >Preview</a>
+                            <a class="col-auto demo-button" href="https://github.com/guadacastro/tuki-mobile.git" ><i class="fa-solid fa-arrow-up-right-from-square " ></i> Demo</a>
                             <a class="col-auto github-button" href="https://github.com/guadacastro/tuki-mobile.git">
                                 <i class="fab fa-github github-icon" ></i>
                                 Github
@@ -181,15 +192,15 @@
     <footer>
         <div class="container">
             <div class="row violet-bubble-footer justify-content-around">
-                    <div class="icon-box col-auto col-sm-4" >
-                        <a href="https://www.linkedin.com/in/guadalupecastromartinez/" target="_blank"><i class="fab fa-linkedin" style="color: #391952;" ></i></a>
-                    </div>
-                    <div class="icon-box col-auto col-sm-4">
-                        <a href="https://github.com/guadacastro" target="_blank"><i class="fab fa-github-square" style="color: #391952;"></i></a>    
-                    </div>
-                    <div class="icon-box col-auto col-sm-4">
-                        <a href= "mailto:guadycasmar123@gmail.com?subject = proposal = Message" target="_blank"> <i class="fas fa-envelope-square" style="color: #391952;"></i> </a>
-                    </div>
+                <div class="icon-box col-auto col-sm-4 " >
+                    <a href="https://www.linkedin.com/in/guadalupecastromartinez/" target="_blank"><i class="fab fa-linkedin button-grow" style="color: #391952;" ></i></a>
+                </div>
+                <div class="icon-box col-auto col-sm-4">
+                    <a href="https://github.com/guadacastro" target="_blank"><i class="fab fa-github-square button-grow" style="color: #391952;"></i></a>    
+                </div>
+                <div class="icon-box col-auto col-sm-4">
+                    <a href= "mailto:guadycasmar123@gmail.com?subject = proposal = Message" target="_blank"> <i class="fas fa-envelope-square button-grow" style="color: #391952;"></i> </a>
+                </div>
             </div>
         </div>
 
@@ -198,7 +209,8 @@
     <script>
         AOS.init();
     </script>
-        <script src="../js/bootstrap.min.js" ></script>
+    <script src="../js/bootstrap.min.js" ></script>
+    
 </body>
 
 </html>

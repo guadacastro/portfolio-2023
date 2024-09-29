@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <meta name="description" content=" I am a passionate Junior Front-End Developer with a mission to create meaningful and impactful experiences. Discover the person behind the work, my journey, and the values that drive my creativity">
+    <meta name="keywords" content="About Me, Front-End Developer, Passionate, Meaningful Experiences, Impactful, Journey, Creativity, Values, Personal Story, Zürich">
+    <title>About Me | Guadalupe Castro Martinez Portfolio</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/bc7bec86a2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body  class="body">
+<body  class="overflow-hidden-1">
 
     <header>
-        <div class="container-fluid box3">
+        <div class="container-fluid header-box-white box3">
 
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
@@ -54,42 +57,52 @@
     </header>
         
     <main>
-        <div class="container">
-            <div class="row box1 gap-5">
-                <div class="col-12 box2">
-                    <h1 class="title1">About me.</h1>
-                    <h2 class="title2">Guadalupe Castro Martinez</h2>
+        <div class="container d-flex flex-column ">
+            <div class="row box1">
+                <div class="col-xl-10 box2 animations-container">
+                    <h1 class="title1 " data-aos="flip-left" >About me <span style="color:rgb(177, 121, 199);">.</span></h1>
+                    <h2 class="title2 mb-5 ">Guadalupe Castro Martinez</h2>
                 </div>
             </div> 
-            <div class="row align-items-center d-flex g-4 mb-lg-5 justify-content-center align-content-center mb-5 ">
+            <div class=" mb-5 mt-5 row align-items-center d-flex g-4 justify-content-center align-content-center pb-4 pt-4 gap-5 animations-container">
                 
-                <img class="profile-picture-about-me col-lg-6  col-12 align-items-center d-flex justify-content-center p-0  " src="../assets/img/Guada's Profile Pictures/IMG_2004.jpeg" alt="profile picture">
-                <div class="col-lg-6 col-12 justify-content-center about-me-text">
-                    <p class="intro-text">
-                        Hello, I'm Guada Castro Martinez. I am a passionate and dedicated junior frontend developer based in 🇨🇭 Zürich, Switzerland. With a keen eye for detail and a love for clean code, I strive to create engaging and user-friendly websites.
-                    </p>
-                                
-                    <p class="intro-text">
-                        I have a solid foundation in HTML, CSS, and JavaScript, and I am continuously expanding my skills in modern web technologies. I am enthusiastic about collaborating with teams to bring creative ideas to life and delivering exceptional digital experiences. Let's connect and build something great together!
-                    </p>
+                <img    class="profile-picture-about-me col-xxl-5 col-xl-5  col-sm-3 align-items-center d-flex justify-content-center p-0  " data-aos="fade-right" 
+                        src="../assets/profile/800-profile-1.jpg"
+                        srcset="../assets/profile/600-profile-1.jpg 600w,../assets/profile/800-profile-1.jpg 800w, ../assets/profile/400-profile-1.jpg 400w "
+                        sizes="(max-width: 800px) 400px, 600px, 800px"
+                        alt="profile picture"
+                        data-aos-offset="400">
+                <div class="col-xxl-5  col-xl-5 col-11 justify-content-center about-me-text d-flex flex-column gap-5 ">
+                    <div class=" intro-box px-3" data-aos="fade-left" data-aos-offset="600">
+                        <p class=" intro-text">
+                            Hello, I'm <span class="violet">Guada Castro Martinez</span>. I am a passionate and dedicated junior frontend developer based in 🇨🇭 Zürich, Switzerland. With a keen eye for detail and a love for clean code, I strive to create engaging and user-friendly websites.
+                        </p>
+                    </div>
+                    <div class="intro-box  px-3 py-1 " data-aos="fade-up" data-aos-offset="300">       
+                        <p class="intro-text">
+                            I have a solid foundation in <span class="violet">HTML</span>, <span class="violet">CSS</span>, and <span class="violet">JavaScript</span>, and I am continuously expanding my skills in modern web technologies. I am enthusiastic about collaborating with teams to bring creative ideas to life and delivering exceptional digital experiences. Let's connect and build something great together!
+                        </p>
+                        </div>
+
                 </div>
+
             </div>
             
         </div>
     </main>
     <footer>
-        <div class="container">
+        <div class="container mt-5 pt-5 ">
             <div class="row violet-bubble-footer justify-content-around">
-                    <div class="icon-box col-auto col-sm-4" >
-                        <a href="https://www.linkedin.com/in/guadalupecastromartinez/" target="_blank"><i class="fab fa-linkedin" style="color: #391952;" ></i></a>
-                    </div>
-                    <div class="icon-box col-auto col-sm-4">
-                        <a href="https://github.com/guadacastro" target="_blank"><i class="fab fa-github-square" style="color: #391952;"></i></a>    
-                    </div>
-                    <div class="icon-box col-auto col-sm-4">
-                        <a href= "mailto:guadycasmar123@gmail.com?subject = proposal = Message" target="_blank"> <i class="fas fa-envelope-square" style="color: #391952;"></i> </a>
-                    </div>
-            </div>
+                <div class="icon-box col-auto col-sm-4 " >
+                    <a href="https://www.linkedin.com/in/guadalupecastromartinez/" target="_blank"><i class="fab fa-linkedin button-grow" style="color: #391952;" ></i></a>
+                </div>
+                <div class="icon-box col-auto col-sm-4">
+                    <a href="https://github.com/guadacastro" target="_blank"><i class="fab fa-github-square button-grow" style="color: #391952;"></i></a>    
+                </div>
+                <div class="icon-box col-auto col-sm-4">
+                    <a href= "mailto:guadycasmar123@gmail.com?subject = proposal = Message" target="_blank"> <i class="fas fa-envelope-square button-grow" style="color: #391952;"></i> </a>
+                </div>
+        </div>
         </div>
 
     </footer>   

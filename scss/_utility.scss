@@ -1,0 +1,163 @@
+.body {
+    background-color: map-get($colors, background );
+
+}
+
+
+.red {
+    background-color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.violet {
+    background-color:  rgb(211, 163, 248);
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.light-blue {
+    background-color: lightblue;
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.orange{
+    background-color: rgb(252, 145, 78);
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.pink{
+    background-color: rgb(255, 136, 203);
+    border-radius: 40px;
+    padding: .5vh 1vh;
+}
+
+.animations-container {
+    overflow: hidden;
+   
+}
+
+.intro-box {
+    background-color: map-get($colors, background);
+    border-radius: map-get($border-radius, rounder );
+    box-shadow: $shadow;
+
+    p {
+        color: map-get($colors, dark-v);
+    }
+
+}
+
+.box1 {
+    align-items: center;
+    justify-content: center;
+
+    .title1 {
+        font-family: map-get($fonts, title );
+        font-size: map-get($fonts-size, title );
+        font-weight: bold;
+        color: map-get($colors, dark-v);
+    }
+    .title2 {
+        font-family: map-get($fonts, subtitle);
+        font-size: map-get($fonts-size, subtitle);
+        color: map-get($colors, white);
+        background-color: $light-violet;
+        border-radius: map-get($border-radius, round );
+        text-align: center;
+        margin-top: 5vh; 
+        padding: 1vh 1vh;
+        box-shadow: $shadow;
+    
+    }
+}
+
+.box2 {
+    padding: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+
+
+.intro-text {
+    font-family: $font-text;
+    font-size: $font-size-text;
+    text-align: map-get($fonts-style, text-align );
+    margin: 10vh 0vh;
+    
+}
+
+.card-box {
+    text-align: center;
+    justify-content: center;
+    margin: 10vh 4vh;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border-radius: map-get($border-radius, round);
+    padding: 4vh 0;
+    box-shadow: $shadow;
+    /* border: 1px solid black; */
+    background-color: map-get($colors, white);
+    
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1257px) {
+    .title1 {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .title2 {
+        font-size: 3rem;
+    }
+
+    .box2 {
+        text-align: center;
+    }
+
+   
+}
+
+@media screen and (min-width: 992px) {
+
+    .box1 {
+        margin-top: 25vh;
+        text-align: center;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+    }
+
+    .header-box {
+        @include header-color($background-color-page);
+        
+    }
+    
+    .header-box-white{
+        @include header-color(map-get($colors, white));
+    }
+
+
+
+
+
+
+      
+}
